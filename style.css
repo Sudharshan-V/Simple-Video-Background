@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.logo
+{
+    height: 70px;
+    width: 130px;
+    filter: drop-shadow(3px 3px 4px #000000);
+}
+.navbar ul
+{
+   list-style-type: none;
+   
+}
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    
+}
+.nav-contents
+{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.options
+{
+    margin-left: 30px;
+}
+.video-background
+{
+position: absolute;    
+right: 0;
+bottom: 0;
+z-index: -1;
+filter: blur(2px);
+transform: translate(0,-38%);
+
+}
+button
+{
+    filter: drop-shadow(5px 10px 8px #0000008c);
+
+}
+.boton-elegante 
+{
+    padding: 15px 30px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+    border: 2px solid #2c2c2c;
+    background-color: #1a1a1a;
+}
+  
+  .boton-elegante::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 70%
+    );
+    transform: scale(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .boton-elegante:hover::after {
+    transform: scale(4);
+  }
+  
+  .boton-elegante:hover {
+    border-color: #6666661b;
+    background: #f1e90e3b;
+  }
+
+h1
+{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    filter: drop-shadow(5px 10px 8px #000000);
+
+}
+.portal
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media (min-aspect-ratio:16/9)
+{
+    .video-background{
+    width: 100%;
+    height: auto;
+    }
+}
+@media (min-aspect-ratio:16/9)
+{
+    .video-background{
+    width: auto;
+    height: 100%;
+    }
+}
+@media (min-width:400px)
+{
+    .logo
+    {
+        height: 80px;
+        width: 140px;
+        margin-left: -10px;
+        margin-right: 0px;
+    }
+    .navbar a
+    {
+        font-size: 15px;
+        
+    }
+    .options a
+    {      
+        margin-right: 21px;
+        margin-left: 0px;
+
+    }
+    h1
+    {
+        font-size: 45px;
+        text-align: center; 
+        margin-top: 190px;
+    }
+    .video-background
+{
+    transform: translate(0,0%);
+
+}
+}
+@media (min-width:698px)
+{
+    .logo
+    {
+        height: 100px;
+        width: 180px;
+    }
+    .navbar a
+    {
+        font-size: 18px;
+    
+
+    }
+    .options a
+    {      
+        margin-right: 21px;
+        margin-left: 30px;
+
+    }
+    h1
+    {
+        font-size: 58px;
+        text-align: center; 
+        margin-top: 190px;
+    }
+    .video-background
+{
+    transform: translate(0,0%);
+
+}
+}
+@media (min-width:988px)
+{
+
+    .logo
+    {
+        height: 120px;
+        width: 200px;
+    }
+    .navbar a
+    {
+        font-size: 18px;
+        
+    }
+    .options a
+    {
+        margin-right: 20px;
+    }
+    h1
+    {
+        font-size: 80px;
+        text-align: center; 
+        margin-top: 100px;
+    }
+    .video-background
+    {
+        transform: translate(0,-0%);
+
+    }
+}
+@media (min-width:1200px)
+{
+
+    .logo
+    {
+        height: 120px;
+        width: 200px;
+    }
+    .navbar a
+    {
+        font-size: 18px;
+        
+    }
+    .options a
+    {
+        margin-right: 20px;
+    }
+    h1
+    {
+        font-size: 80px;
+        text-align: center; 
+        margin-top: 100px;
+    }
+    .video-background
+    {
+        transform: translate(0,0%);
+
+    }
+}
+@media (min-width:1324px)
+{
+
+    .logo
+    {
+        height: 120px;
+        width: 200px;
+    }
+    .navbar a
+    {
+        font-size: 18px;
+        
+    }
+    .options a
+    {
+        margin-right: 20px;
+    }
+    h1
+    {
+        font-size: 80px;
+        text-align: center; 
+        margin-top: 100px;
+    }
+    .video-background
+    {
+        transform: translate(0,-39%);
+
+    }
+}
